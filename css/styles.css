@@ -1,4 +1,55 @@
+/* цвет основного текста #212121; */
+/* вторичный цвет текста #757575; */
+/* цвет лого #2196F3; #FFFFFF; */
+/* цвет контактов в футере rgba(255, 255, 255, 0.6);  */
+/* акцент #2196F3; */
+/* цвет фона #E5E5E5; */
+/* вторичный цвет фона #F5F4FA; */
+/* цвет футера #2F303A;*/
+
+/* Главная Страница "Студия"*/
+
+/* переменные */
+:root {
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
+  background-color: #e5e5e5;
+  color: #757575;
   font-family: 'Roboto', sans-serif;
+}
+
+/* Маркировка (точка) */
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Site contacts */
+.contacts a {
+  color: #757575;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+.section-title {
+  color: #212121;
 }
