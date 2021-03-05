@@ -11,12 +11,14 @@
 
 /* переменные */
 :root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
 }
 
 body {
   background-color: #e5e5e5;
-  color: #757575;
-  font-family: 'Roboto', sans-serif;
+  color: var(--title-text-color);
 }
 
 /* Маркировка (точка) */
@@ -26,22 +28,22 @@ ul {
 
 /* Site nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Site contacts */
 .contacts a {
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 .contacts a:hover,
 .contacts a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Hero */
@@ -51,5 +53,12 @@ ul {
 
 /* Section */
 .section-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
+
+/* Features */
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+
+/* Button */
