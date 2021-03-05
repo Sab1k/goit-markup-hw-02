@@ -9,15 +9,18 @@
 
 /* Главная Страница "Студия"*/
 
-/* переменные */
+/* Переменные */
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-bg-color: #2196f3;
+  --primary-fon-color: #e5e5e5;
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: var(--primary-fon-color);
   color: var(--title-text-color);
 }
 
@@ -35,6 +38,9 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 
 /* Site contacts */
 .contacts a {
@@ -48,7 +54,7 @@ ul {
 
 /* Hero */
 .hero-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 /* Section */
@@ -62,3 +68,11 @@ ul {
 }
 
 /* Button */
+.button {
+  background-color: var(--primary-fon-color);
+  color: var(--primary-text-color);
+}
+.button.primary {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-white-color);
+}
