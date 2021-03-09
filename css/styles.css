@@ -81,8 +81,15 @@ ul {
 .button {
   background-color: var(--primary-fon-color);
   color: var(--primary-text-color);
+  cursor: pointer;
 }
+
 .button.primary {
   background-color: var(--primary-bg-color);
+  color: var(--primary-white-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
