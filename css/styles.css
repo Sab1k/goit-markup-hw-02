@@ -162,6 +162,12 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 }
+
+.button.primary:hover,
+.button.primary:focus {
+  background-color: #188ce8;
+}
+
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
